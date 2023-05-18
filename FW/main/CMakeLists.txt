@@ -1,0 +1,16 @@
+idf_component_register(SRCS "../cmd/cmd.c" 
+                            "../cmd/console_interface.c"
+                            "../inputs/humidity_sensor.c"
+                            "../inputs/temperature_sensor.c"
+                            "../outputs/dehumyfing_ventilator_control.c" 
+                            "../outputs/cooling_ventilator_control.c" 
+                            "../outputs/watering_pump_control.c" 
+                            "../outputs/cooling_pump_control.c" 
+                            "../inputs/water_tank_meas.c"
+                            "../outputs/peltier_power_control.c"
+                            "../third_party/dht.c" 
+                            "../third_party/ds18x20.c"
+                            "../third_party/onewire.c"
+                            "main.c"
+                      INCLUDE_DIRS 
+                            ".")
